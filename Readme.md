@@ -80,11 +80,10 @@ Sensor GY-33 → Pico (Classificação + DMA PWM) → Display SSD1306
 
 ```
 sensor-cor-dma/
-├── main.c
-├── dma_pwm.c
-├── gy33.c
-├── ssd1306.c
 ├── build/
+├── lib/
+├── CMakeLists.txt
+├── DMA_SENSOR_COR.c
 └── README.md
 ```
 
